@@ -1,0 +1,9 @@
+@settings {
+  template: systems;
+  include: ["tag"!=""], theme, person, intheme-connection, authorship-connection, loop;
+  ignore-orphans: true;
+  element-color: categorize("Element Type", neon2);
+  layout: force;
+  layout-preset: auto;
+}
+
